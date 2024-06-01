@@ -21,6 +21,10 @@ p {
 img {
   border-radius: 50%;
 }
+
+body {
+  background-color: lightblue;
+}  
 /* TRANSITION */
 
 a,
