@@ -7,10 +7,6 @@
   padding: 0;
 }
 
-header .left-side a img{
-  width: 80px;
-}
-
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -20,15 +16,18 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(25, 25, 112);
 }
+
 img {
   border-radius: 50%;
 }
 
 body {
-  background-color: lightblue;
-}  
+  background-color: rgb(255, 250, 210); 
+}
+
+
 /* TRANSITION */
 
 a,
@@ -62,10 +61,10 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: red;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(240, 10, 10);
 }
 
 .logo {
@@ -160,7 +159,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 60vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -176,7 +175,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 55vh;
 }
 
 .section__pic-container {
@@ -258,9 +257,12 @@ section {
 .btn-color-1:hover {
   background: rgb(0, 0, 0);
 }
+.btn-color-1 {
+  background: rgba(95, 62, 78, 1);
+}
 
 .btn-color-2 {
-  background: none;
+  background: rgba(238, 159, 84, 255);
 }
 
 .btn-color-2:hover {
@@ -306,9 +308,9 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: rgb(204, 255, 255);
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(0, 0, 0) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
@@ -376,8 +378,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 80%;
+  height: 80%;
 }
 
 .project-title {
